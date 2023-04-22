@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Part1">
+      <UniqueIdentifier>{19b04bf1-a8dd-4016-8ad2-432bcf458731}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Part2">
+      <UniqueIdentifier>{4dc06a03-950a-4d77-bb3a-40a4cdb40af5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared">
+      <UniqueIdentifier>{ee64f453-e012-4d33-9c26-09c3248f8c7e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SGITest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelpers.cpp">
+      <Filter>Source Files\Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitTests.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="OrientedRectTests.cpp">
+      <Filter>Source Files\Part1</Filter>
+    </ClCompile>
+    <ClCompile Include="FactorTests.cpp">
+      <Filter>Source Files\Part2</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Point2D.h">
+      <Filter>Source Files\Part1</Filter>
+    </ClInclude>
+    <ClInclude Include="OrientedRect2D.h">
+      <Filter>Source Files\Part1</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelpers.h">
+      <Filter>Source Files\Part1</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitTests.h">
+      <Filter>Source Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="OrientedRectTests.h">
+      <Filter>Source Files\Part1</Filter>
+    </ClInclude>
+    <ClInclude Include="FactorTests.h">
+      <Filter>Source Files\Part2</Filter>
+    </ClInclude>
+    <ClInclude Include="FactorHelpers.h">
+      <Filter>Source Files\Part2</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
